@@ -6,7 +6,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Welcome to Hot Restaurant!');
+    res.send('<h1> Welcome to Hot Restaurant! </h1>');
 });
 
 app.listen(PORT, () => {
